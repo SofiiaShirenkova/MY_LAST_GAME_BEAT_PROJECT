@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="icon" href="img/favicon.svg">
+      <link href="./stylesheets/picklestyle.css" rel="stylesheet" type="text/css"/>
+      <script src="./javascripts/jquery-3.7.1.js"></script>
+      <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+      
+  </head>
+  <body>
+
+    <div class="menu_bar">
+      <img onclick="location.href='index.html'" class="main_icon" src="img/main_w.svg">
+      <img onclick="location.href='shop.html'" class="arrow_back" src="img/arrow.svg">
+    </div>
+
+    <div class="big_for_poster">
+
+      <div class="text_n_btn">
+
+        <p id="abt_purch">Медиаторы 10шт<br><br>
+          Медиатор&nbsp;&mdash; это маленький помощник большого музыканта!<br>
+
+          Если вы&nbsp;ищете идеальный медиатор для своей гитары, то&nbsp;вы&nbsp;попали по&nbsp;адресу! Наши медиаторы изготовлены из&nbsp;высококачественных 
+          материалов, которые обеспечивают чистый и&nbsp;яркий звук вашей гитары. Они идеально подходят для любого стиля игры: от&nbsp;классического до&nbsp;современного.<br>
+        </p>
+        <p id="txt_for_price">Цена: 999₽</p><br>
+        <div class="buttons_for_buying">
+          <button class="buy">Купить</button>
+          <button class="to_cart">В корзину</button>
+        </div>
+
+      </div>
+
+
+
+      <div class="box_for_purch">
+        <img id="purch1" src="img/guitar_pick.svg">
+      </div>
+      
+    </div>
+
+    <div id="buy_modal">
+      <div id="buy_modal-content">
+          
+        <span class="close">&times;</span>
+        <form id="buy_myForm">
+          <p id="buy_registration">Контактные данные</p>
+          <input placeholder="ФИО" type="text" name="name" id="name">
+          <input placeholder="Электронная почта" type="email" name="email" id="email-address">
+          <input placeholder="Телефон" type="tel" name="number" id="mobile_phone">
+          <input placeholder="Адрес" type="text" name="adress" id="adress">
+          <p id="sum"></p>
+          <input type="submit" id="submit_it" value="Заказать">
+
+        </form>
+      </div>
+    </div>
+
+   
+
+  </body>
+  </html>
+<script src="javascripts/pickle.js"></script>

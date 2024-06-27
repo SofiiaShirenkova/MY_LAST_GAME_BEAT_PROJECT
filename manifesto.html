@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>...</title> 
+    <link rel="icon" href="img/favicon.svg">
+    <link href="./stylesheets/manifestoStyle.css" rel="stylesheet" type="text/css"/>
+    <script src="./javascripts/jquery-3.7.1.js"></script>  
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>  
+    <script src="javascripts/manifesto.js" charset="utf-8"></script>
+  </head>
+  <body>
+
+    <div class="menu_bar">
+      <img onclick="location.href='index.html'" class="main_icon" src="img/main_w.svg">
+      <img class="what_icon" src="img/what_is_manifest.svg" onclick="openPopup()">
+      <img onclick="location.href='place.html'" class="place_icon" src="img/place.svg">
+    </div>
+
+    <!-- Всплывающее окно -->
+    <div id="popup" style="display: none;" onclick="closePopup()">
+      <!-- <span class="close2">&times;</span> -->
+      <p id="txt_for_popup">Перед Вами манифест фестиваля музыки&nbsp;из&nbsp;8-битных&nbsp;игр GAME BEAT. В&nbsp;манифесте подробно описаны принципы создания 
+        пространства мероприятия, а&nbsp;также концепция создания многофункциональных предметов 
+        интерьера из&nbsp;букв шрифта проекта.</p>
+    </div>
+
+    
+    <script>
+      function openPopup() {
+          document.getElementById("popup").style.display = "block";
+      }
+
+      function closePopup() {
+          document.getElementById("popup").style.display = "none";
+      }
+    </script>
+
+
+    <main class="carousel-container">
+      <div class="carousel">
+        <div class="item active">
+          <img src="img/1.png" alt="Image 1" />
+        </div>
+        <div class="item">
+          <img src="img/2.png" alt="Image 2" />
+        </div>
+        <div class="item">
+          <img src="img/3.png" alt="Image 3" />
+        </div>
+        <div class="item">
+          <img src="img/4.png" alt="Image 4.1" />
+        </div>
+        <div class="item">
+          <img src="img/18.png" alt="Image 4.2" />
+        </div>
+        <div class="item">
+          <img src="img/5.png" alt="Image 5" />
+        </div>
+        <div class="item">
+          <img src="img/6.png" alt="Image 6" />
+        </div>
+        <div class="item">
+          <img src="img/7.png" alt="Image 7" />
+        </div>
+        <div class="item">
+          <img src="img/8.png" alt="Image 8" />
+        </div>
+        <div class="item">
+          <img src="img/9.png" alt="Image 9" />
+        </div>
+        <div class="item">
+          <img src="img/10.png" alt="Image 10" />
+        </div>
+        <div class="item">
+          <img src="img/11.png" alt="Image 11" />
+        </div>
+        <div class="item">
+          <img src="img/12.png" alt="Image 12" />
+        </div>
+        <div class="item">
+          <img src="img/13.png" alt="Image 13.1" />
+        </div>
+        <div class="item">
+          <img src="img/20.png" alt="Image 13.2" />
+        </div>
+        <div class="item">
+          <img src="img/14.png" alt="Image 14" />
+        </div>
+        <div class="item">
+          <img src="img/15.png" alt="Image 15" />
+        </div>
+        <div class="item">
+          <img src="img/16.png" alt="Image 16" />
+        </div>
+        <div class="item">
+          <img src="img/17.png" alt="Image 17" />
+        </div>
+        <div class="item">
+          <img src="img/19.png" alt="Image 19" />
+        </div>
+      </div>
+      <img class="btn next" src="img/next.png">
+      <img class="btn prev" src="img/prev.png">
+      <div class="dots"></div>
+    </main>
+
+  </body>
+</html>

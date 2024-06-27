@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>...</title>
+      <link rel="icon" href="img/favicon.svg"> 
+      <link href="./stylesheets/poster1style.css" rel="stylesheet" type="text/css"/>
+      <script src="./javascripts/jquery-3.7.1.js"></script>
+      <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+      
+  </head>
+  <body>
+
+    <div class="menu_bar">
+      <img onclick="location.href='index.html'" class="main_icon" src="img/main_w.svg">
+      <img onclick="location.href='slider.html'" class="arrow_back" src="img/arrow.svg">
+    </div>
+
+    <div class="big_for_poster">
+
+      <div class="text_n_btn">
+
+        <p id="abt_poster5">
+          Приглашаем на&nbsp;фестиваль музыки компьютерных игр!<br><br>
+
+          Дата: 23.01.2024<br>
+          Время: 14:00-21:00<br>
+          Место: Дом музыки<br><br>
+          
+          Фестиваль музыки компьютерных игр&nbsp;&mdash; это уникальное событие, объединяющее любителей видеоигр и&nbsp;музыки. Вас ждут увлекательные выступления музыкантов, которые создают саундтреки к&nbsp;играм, а&nbsp;также интерактивные зоны с&nbsp;играми и&nbsp;конкурсами.<br><br>
+          
+          В&nbsp;программе фестиваля:<br>
+          Выступления музыкантов, создающих музыку для игр.<br>
+          Интерактивные зоны с&nbsp;популярными играми.<br>
+          Конкурсы и&nbsp;викторины по&nbsp;видеоиграм.<br>
+          Мастер-классы и&nbsp;лекции от&nbsp;разработчиков игр и&nbsp;композиторов.<br><br>
+
+          Обратите внимание,&nbsp;для&nbsp;участия&nbsp;в&nbsp;мероприятии необходима регистрация.<br>
+
+          <button id="openModalBtn">Регистрация</button>
+
+      </div>
+
+
+
+      <div class="box_for_poster1">
+        <img id="poster4" src="img/music_festival.gif">
+      </div>
+      
+    </div>
+
+    
+          <div id="modal" class="modal">
+            <div class="modal-content">
+              
+              <span class="close">&times;</span>
+              <form id="myForm">
+                <p id="registration">Контактные данные</p>
+            
+                <!-- <label class="form_mail" for="email">Почта</label> -->
+                <input placeholder="Электронная почта" type="email" name="email" id="email-address">
+                <!-- <input type="email" id="email" name="email" required><br><br> -->
+
+                <!-- <label class="form_name" for="name">Имя</label> -->
+                <input placeholder="Телефон" type="tel" name="number" id="mobile_phone">
+                <!-- <input type="text" id="name" name="name" required><br><br> -->
+
+                <input type="submit" id="submit_it" value="Завершить регистрацию">
+
+              </form>
+            </div>
+          </div>
+
+      </div>
+
+      </div>
+    </div>
+
+   
+
+  </body>
+  </html>
+<script src="javascripts/poster1script.js"></script>

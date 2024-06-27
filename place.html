@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>...</title>
+    <link rel="icon" href="img/favicon.svg">
+      <link href="./stylesheets/placeStyle.css" rel="stylesheet" type="text/css"/>
+      <script src="./javascripts/jquery-3.7.1.js"></script>
+      
+  </head>
+  <body>
+
+    <div class="menu_bar">
+      <img onclick="location.href='index.html'" class="main_icon" src="img/main_w.svg">
+      <img class="what_icon_p" src="img/what_is_place.svg" onclick="openPopup()">
+      <img onclick="location.href='playground.html'" class="puzzle_icon" src="img/puzzle.svg">
+    </div>
+    
+    <div id="popup" style="display: none;" onclick="closePopup()">
+      <!-- <span class="close2">&times;</span> -->
+      <p id="txt_for_popup">Перед Вами пространство фестиваля GAME&nbsp;BEAT. 
+        Пространством обычно становятся пустые ангары с&nbsp;открытой планировкой, которые&nbsp;наполняются многофункциональными предметами 
+        интерьера из&nbsp;букв шрифта проекта.</p>
+    </div>
+       
+    <script>
+      function openPopup() {
+          document.getElementById("popup").style.display = "block";
+      }
+
+      function closePopup() {
+          document.getElementById("popup").style.display = "none";
+      }
+    </script>
+
+    <div class="scene">
+      <div class="layer"><img src="img/back.png"></div>
+    </div>
+
+  </body>
+  </html>
+<script src="javascripts/place.js"></script>
