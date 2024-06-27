@@ -1,0 +1,90 @@
+body{
+  margin: 0;
+  background-color: #000;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.menu_bar {
+  display: flex;
+  flex-wrap: wrap;
+  height: 8vw;
+  align-content: space-between;
+  z-index: 1000;
+}
+
+.main_icon{
+  position: fixed;
+  display: flex;
+  align-self: center;
+  margin-left: 48vw;
+  margin-top: -3.4vw;
+  z-index: 1000;
+}
+
+.what_icon_p{
+  position: absolute;
+  display: flex;
+  align-self: center;
+  margin-left: 2vw;
+  margin-top: -3.4vw;
+  z-index: 1000;
+}
+
+.puzzle_icon{
+  position: absolute;
+  display: flex;
+  align-self: center;
+  margin-left: 96vw;
+  margin-top: -3.4vw;
+  z-index: 1000;
+}
+
+#popup{
+  position: relative;
+  z-index: 10;
+
+  position: absolute;
+  margin-top: 8%;
+  margin-left: 30%;
+  width: 40%;
+  /* color: #000000; */
+  font-size: 1.5vw;
+  background-color: black;
+  border: 2px solid #00FF19;
+}
+
+#txt_for_popup{
+  font-family: "IBM Plex Mono", monospace;
+  font-style: normal;
+  line-height: 2vw;
+  font-size: 1.5vw;
+  color: #00FF19;
+  padding: 4% 6%;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  z-index: 1;
+}
+
+.scene{
+  position: fixed;
+  left: -10%;
+  top: -8%;
+  bottom: 0;
+  right: 0;
+  width: 120%;
+  height: 30%;
+}
+
+.layer{
+  position: absolute;
+  left: -10%;
+  top: 0;
+  width: 110%;
+  height: 45%;
+}

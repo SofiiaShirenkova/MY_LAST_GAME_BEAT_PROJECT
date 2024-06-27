@@ -1,0 +1,728 @@
+body{
+margin: 0;
+background-color: #000;
+}
+
+* {
+box-sizing: border-box;
+}
+  
+.menu_bar {
+    display: flex;
+    flex-wrap: wrap;
+    height: 8vw;
+    align-content: space-between;
+    z-index: 1000;
+}
+
+.main_icon{
+    position: absolute;
+    display: flex;
+    align-self: center;
+    margin-left: 48vw;
+    margin-top: -3.4vw;
+    z-index: 1000;
+}
+
+.draggable1{
+background-image: url(../img/dg.png);
+width: 35px;
+height: 35px;
+text-align: center;
+cursor: move;
+position: absolute;
+margin: 2;
+}
+.draggable1:hover {
+background-image: url(../img/that.png);
+width: 138px;
+height: 138px;
+margin-top: -51px;
+margin-left: -51px;
+
+ /*-webkit-box-shadow:0 0 50px rgb(255, 255, 255); 
+-moz-box-shadow: 0 0 50px rgb(255, 255, 255);
+box-shadow:0 0 50px rgb(255, 255, 255); */
+}
+
+
+
+.draggable2{
+    background-image: url(../img/ig.png);
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    cursor: move;
+    position: absolute;
+    margin: 2;
+    }
+.draggable2:hover {
+background-image: url(../img/ipb.png);
+width: 138px;
+height: 138px;
+margin-top: -57px;
+margin-left: -57px;
+
+}
+
+.draggable3{
+    background-image: url(../img/iw.png);
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    cursor: move;
+    position: absolute;
+    margin: 2;
+    }
+.draggable3:hover {
+background-image: url(../img/igb.png);
+width: 138px;
+height: 138px;
+margin-top: -47px;
+margin-left: -51px;
+}
+
+.draggable4{
+    background-image: url(../img/kg.png);
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    cursor: move;
+    position: absolute;
+    margin: 2;
+    }
+.draggable4:hover {
+background-image: url(../img/kwb.png);
+width: 138px;
+height: 138px;
+margin-top: -51px;
+margin-left: -51px;
+}
+
+.draggable5{
+    background-image: url(../img/mg.png);
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    cursor: move;
+    position: absolute;
+    margin: 2;
+    }
+.draggable5:hover {
+background-image: url(../img/mpb.png);
+width: 138px;
+height: 138px;
+margin-top: -58px;
+margin-left: -58px;
+}
+
+.draggable6{
+    background-image: url(../img/vp.png);
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    cursor: move;
+    position: absolute;
+    margin: 2;
+    }
+.draggable6:hover {
+background-image: url(../img/vwb.png);
+width: 138px;
+height: 138px;
+margin-top: -51px;
+margin-left: -51px;
+}
+
+.draggable7{
+    background-image: url(../img/wp.png);
+    width: 63px;
+    height: 35px;
+    text-align: center;
+    cursor: move;
+    position: absolute;
+    margin: 2;
+    }
+.draggable7:hover {
+background-image: url(../img/wwb.png);
+width: 138px;
+height: 138px;
+margin-top: -51px;
+margin-left: -51px;
+}
+
+.draggable8{
+    background-image: url(../img/xg.png);
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    cursor: move;
+    position: absolute;
+    margin: 2;
+    }
+.draggable8:hover {
+background-image: url(../img/xpb.png);
+width: 138px;
+height: 138px;
+margin-top: -58px;
+margin-left: -56px;
+}
+
+.draggable9{
+    background-image: url(../img/kw.png);
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    cursor: move;
+    position: absolute;
+    margin: 2;
+    }
+.draggable9:hover {
+background-image: url(../img/kgb.png);
+width: 138px;
+height: 138px;
+margin-top: -48px;
+margin-left: -51px;
+}
+
+.draggable10{
+    background-image: url(../img/pw.png);
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    cursor: move;
+    position: absolute;
+    margin: 2;
+    }
+.draggable10:hover {
+background-image: url(../img/pgb.png);
+width: 138px;
+height: 138px;
+margin-top: -48px;
+margin-left: -51px;
+}
+
+.draggable11{
+    background-image: url(../img/ag.png);
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    cursor: move;
+    position: absolute;
+    margin: 2;
+    }
+.draggable11:hover {
+background-image: url(../img/awb.png);
+width: 138px;
+height: 138px;
+margin-top: -51px;
+margin-left: -51px;
+}
+
+.draggable12{
+    background-image: url(../img/cp.png);
+    width: 40px;
+    height: 38px;
+    text-align: center;
+    cursor: move;
+    position: absolute;
+    margin: 2;
+    }
+.draggable12:hover {
+background-image: url(../img/cwb.png);
+width: 138px;
+height: 138px;
+margin-top: -51px;
+margin-left: -51px;
+}
+
+.draggable13{
+    background-image: url(../img/cw.png);
+    width: 40px;
+    height: 38px;
+    text-align: center;
+    cursor: move;
+    position: absolute;
+    margin: 2;
+    }
+.draggable13:hover {
+background-image: url(../img/cgb.png);
+width: 138px;
+height: 138px;
+margin-top: -48px;
+margin-left: -51px;
+}
+
+.draggable14{
+    background-image: url(../img/jw.png);
+    width: 31px;
+    height: 35px;
+    text-align: center;
+    cursor: move;
+    position: absolute;
+    margin: 2;
+    }
+.draggable14:hover {
+background-image: url(../img/jgb.png);
+width: 138px;
+height: 138px;
+margin-top: -48px;
+margin-left: -51px;
+}
+
+.draggable15{
+    background-image: url(../img/jg.png);
+    width: 31px;
+    height: 35px;
+    text-align: center;
+    cursor: move;
+    position: absolute;
+    margin: 2;
+    }
+.draggable15:hover {
+background-image: url(../img/jpb.png);
+width: 138px;
+height: 138px;
+margin-top: -57px;
+margin-left: -55px;
+}
+
+/* .draggable16{
+    background-image: url(../img/jg.png);
+    width: 31px;
+    height: 35px;
+    text-align: center;
+    cursor: move;
+    position: absolute;
+    margin: 2;
+    }
+.draggable16:hover {
+background-image: url(../img/jp.png);
+-webkit-box-shadow:0 0 50px rgba(124, 0, 255, 1); 
+-moz-box-shadow: 0 0 50px rgba(124, 0, 255, 1);
+box-shadow:0 0 50px rgba(124, 0, 255, 1);
+} */
+
+.draggable17{
+    background-image: url(../img/tp.png);
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    cursor: move;
+    position: absolute;
+    margin: 2;
+    }
+.draggable17:hover {
+background-image: url(../img/tgb.png);
+width: 138px;
+height: 138px;
+margin-top: -48px;
+margin-left: -51px;
+}
+
+.draggable18{
+    background-image: url(../img/tg.png);
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    cursor: move;
+    position: absolute;
+    margin: 2;
+    }
+.draggable18:hover {
+background-image: url(../img/tpb.png);
+width: 138px;
+height: 138px;
+margin-top: -57px;
+margin-left: -58px;
+}
+
+.draggable19{
+    background-image: url(../img/xw.png);
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    cursor: move;
+    position: absolute;
+    margin: 2;
+    }
+.draggable19:hover {
+background-image: url(../img/xpb.png);
+width: 138px;
+height: 138px;
+margin-top: -57px;
+margin-left: -58px;
+}
+
+.draggable20{
+    background-image: url(../img/og.png);
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    cursor: move;
+    position: absolute;
+    margin: 2;
+    }
+.draggable20:hover {
+background-image: url(../img/opb.png);
+width: 138px;
+height: 138px;
+margin-top: -58px;
+margin-left: -56px;
+}
+
+.draggable21{
+    background-image: url(../img/op.png);
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    cursor: move;
+    position: absolute;
+    margin: 2;
+    }
+.draggable21:hover {
+background-image: url(../img/owb.png);
+width: 138px;
+height: 138px;
+margin-top: -50px;
+margin-left: -51px;
+}
+
+/* .draggable22{
+    background-image: url(../img/op.png);
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    cursor: move;
+    position: absolute;
+    margin: 2;
+    }
+.draggable22:hover {
+background-image: url(../img/ow.png);
+-webkit-box-shadow:0 0 50px rgb(255, 255, 255); 
+-moz-box-shadow: 0 0 50px rgb(255, 255, 255);
+box-shadow:0 0 50px rgb(255, 255, 255);
+} */
+
+.draggable23{
+    background-image: url(../img/mp.png);
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    cursor: move;
+    position: absolute;
+    margin: 2;
+    }
+.draggable23:hover {
+background-image: url(../img/mwb.png);
+width: 138px;
+height: 138px;
+margin-top: -51px;
+margin-left: -51px;
+}
+
+.draggable24{
+    background-image: url(../img/rp.png);
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    cursor: move;
+    position: absolute;
+    margin: 2;
+    }
+.draggable24:hover {
+background-image: url(../img/rwb.png);
+width: 138px;
+height: 138px;
+margin-top: -51px;
+margin-left: -51px;
+}
+
+.draggable25{
+    background-image: url(../img/rw.png);
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    cursor: move;
+    position: absolute;
+    margin: 2;
+    }
+.draggable25:hover {
+background-image: url(../img/rgb.png);
+width: 138px;
+height: 138px;
+margin-top: -47px;
+margin-left: -51px;
+}
+
+.draggable26{
+    background-image: url(../img/wg.png);
+    width: 64px;
+    height: 36px;
+    text-align: center;
+    cursor: move;
+    position: absolute;
+    margin: 2;
+    }
+.draggable26:hover {
+background-image: url(../img/wpb.png);
+width: 138px;
+height: 138px;
+margin-top: -55px;
+margin-left: -57px;
+}
+
+.draggable27{
+    background-image: url(../img/wg.png);
+    width: 64px;
+    height: 36px;
+    text-align: center;
+    cursor: move;
+    position: absolute;
+    margin: 2;
+    }
+.draggable27:hover {
+background-image: url(../img/wwb.png);
+width: 138px;
+height: 138px;
+margin-top: -51px;
+margin-left: -51px;
+}
+
+.draggable28{
+    background-image: url(../img/zp.png);
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    cursor: move;
+    position: absolute;
+    margin: 2;
+    }
+.draggable28:hover {
+background-image: url(../img/zwb.png);
+width: 138px;
+height: 138px;
+margin-top: -51px;
+margin-left: -51px;
+}
+
+.draggable29{
+    background-image: url(../img/zg.png);
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    cursor: move;
+    position: absolute;
+    margin: 2;
+    }
+.draggable29:hover {
+background-image: url(../img/zwb.png);
+width: 138px;
+height: 138px;
+margin-top: -51px;
+margin-left: -51px;
+}
+
+.draggable30{
+    background-image: url(../img/ep.png);
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    cursor: move;
+    position: absolute;
+    margin: 2;
+    }
+.draggable30:hover {
+background-image: url(../img/egb.png);
+width: 138px;
+height: 138px;
+margin-top: -48px;
+margin-left: -51px;
+}
+
+.draggable31{
+    background-image: url(../img/ew.png);
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    cursor: move;
+    position: absolute;
+    margin: 2;
+    }
+.draggable31:hover {
+background-image: url(../img/epb.png);
+width: 138px;
+height: 138px;
+margin-top: -57px;
+margin-left: -56px;
+}
+
+.draggable32{
+    background-image: url(../img/fg.png);
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    cursor: move;
+    position: absolute;
+    margin: 2;
+    }
+.draggable32:hover {
+background-image: url(../img/fpb.png);
+width: 138px;
+height: 138px;
+margin-top: -58px;
+margin-left: -56px;
+}
+
+
+.draggable33{
+    background-image: url(../img/fw.png);
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    cursor: move;
+    position: absolute;
+    margin: 2;
+    }
+.draggable33:hover {
+background-image: url(../img/fgb.png);
+width: 138px;
+height: 138px;
+margin-top: -47px;
+margin-left: -51px;
+}
+
+.draggable34{
+    background-image: url(../img/qw.png);
+    width: 40px;
+    height: 42px;
+    text-align: center;
+    cursor: move;
+    position: absolute;
+    margin: 2;
+    }
+.draggable34:hover {
+background-image: url(../img/qgb.png);
+width: 138px;
+height: 138px;
+margin-top: -48px;
+margin-left: -52px;
+}
+
+.draggable35{
+    background-image: url(../img/qg.png);
+    width: 40px;
+    height: 42px;
+    text-align: center;
+    cursor: move;
+    position: absolute;
+    margin: 2;
+    }
+.draggable35:hover {
+background-image: url(../img/qpb.png);
+width: 138px;
+height: 138px;
+margin-top: -62px;
+margin-left: -56px;
+}
+
+.draggable36{
+    background-image: url(../img/sg.png);
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    cursor: move;
+    position: absolute;
+    margin: 2;
+    }
+.draggable36:hover {
+background-image: url(../img/spb.png);
+width: 138px;
+height: 138px;
+margin-top: -57px;
+margin-left: -57px;
+}
+
+.draggable37{
+    background-image: url(../img/sp.png);
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    cursor: move;
+    position: absolute;
+    margin: 2;
+    }
+.draggable37:hover {
+background-image: url(../img/swb.png);
+width: 138px;
+height: 138px;
+margin-top: -50px;
+margin-left: -51px;
+}
+
+.draggable38{
+    background-image: url(../img/ng.png);
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    cursor: move;
+    position: absolute;
+    margin: 2;
+    }
+.draggable38:hover {
+background-image: url(../img/nwb.png);
+width: 138px;
+height: 138px;
+margin-top: -51px;
+margin-left: -51px;
+}
+
+.draggable39{
+    background-image: url(../img/np.png);
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    cursor: move;
+    position: absolute;
+    margin: 2;
+    }
+.draggable39:hover {
+background-image: url(../img/ngb.png);
+width: 138px;
+height: 138px;
+margin-top: -48px;
+margin-left: -51px;
+}
+
+.draggable40{
+    background-image: url(../img/uw.png);
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    cursor: move;
+    position: absolute;
+    margin: 2;
+    }
+.draggable40:hover {
+background-image: url(../img/ugb.png);
+width: 138px;
+height: 138px;
+margin-top: -48px;
+margin-left: -51px;
+}
+
+.draggable41{
+    background-image: url(../img/ug.png);
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    cursor: move;
+    position: absolute;
+    margin: 2;
+    }
+.draggable41:hover {
+background-image: url(../img/upb.png);
+width: 138px;
+height: 138px;
+margin-top: -57px;
+margin-left: -57px;
+}

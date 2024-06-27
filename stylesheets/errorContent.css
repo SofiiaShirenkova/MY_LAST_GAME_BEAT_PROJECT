@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+.menu_bar {
+  display: flex;
+  flex-wrap: wrap;
+  height: 8vw;
+  align-content: space-between;
+  z-index: 1000;
+}
+
+
+.arrow_back{
+  position: absolute;
+  display: flex;
+  align-self: center;
+  margin-left: 2vw;
+  margin-top: -3.4vw;
+  z-index: 1000;
+}  
+    
+.main_icon{
+position: fixed;
+display: flex;
+align-self: center;
+margin-left: 48vw;
+margin-top: -3.4vw;
+z-index: 1000;
+}
+
+.packman_sdelal_am{
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 9%;
+}
+
+#error{
+  font-family: "IBM Plex Mono", monospace;
+  font-style: normal;
+  line-height: 2vw;
+  font-size: 15vw;
+  color: #00FF19;
+  text-align: center;
+  margin-top: 4%;
+}
+
+#text{
+  font-family: "IBM Plex Mono", monospace;
+  font-style: normal;
+  line-height: 2vw;
+  font-size: 1.6vw;
+  color: #00FF19;
+  text-align: center;
+  margin-top: 8%;
+}
+
+#packman{
+  width: 15vw;
+  align-self: center;
+  justify-content: center;
+  display: flex;
+  position: absolute;
+  margin-left: 42%;
+  margin-top: 2%;
+}

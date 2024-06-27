@@ -1,0 +1,335 @@
+@media screen and (min-width: 1921px) {
+  
+}
+
+@media screen and (min-width: 1441px) and (max-width: 1920px) {
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 1440px) {
+
+}
+
+
+@media screen and (min-width: 415px) and (max-width: 768px) {
+   
+}
+
+@media screen and (max-width: 632px) {     
+
+.cart_icon{
+  position: fixed;
+  display: flex;
+  align-self: center;
+  margin-left: 89vw;
+  margin-top: -3.4vw;
+  z-index: 1000;
+}
+
+#shop_div{
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+#txt_for_name{
+  font-family: "IBM Plex Mono", monospace;
+  font-style: normal;
+  line-height: 4vw;
+  font-size: 3vw;
+  color: #00FF19;
+  text-align: center;
+  padding: -1vw 0.5vw;
+  margin-top: 3%;
+}
+
+#txt_for_price{
+  font-family: "IBM Plex Mono", monospace;
+  font-style: normal;
+  line-height: 4vw;
+  font-size: 3vw;
+  color: #00FF19;
+  text-align: center;
+  padding: -1vw 0.5vw;
+  margin-top: 1%;
+}
+
+#purchase1{
+  margin-top: -8%;
+  width: 40%;
+  position: relative;
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+}
+
+#vinil{
+  width: 60vw;
+  position: relative;
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+}
+
+#mediator{
+  width: 50vw;
+  position: relative;
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+}
+
+#shopper{
+  width: 40vw;
+  position: relative;
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+}
+
+.buttons_for_buying{
+  margin-top: 2%;
+  margin-bottom: 5%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.buy{
+  font-family: "IBM Plex Mono", monospace;
+  font-style: normal;
+  line-height: 2vw;
+  font-size: 2.5vw;
+  color: #00FF19;
+
+  width: 28vw;
+  height: 7vw;
+  
+  margin-top: 2%;
+  margin-right: 2%;
+  padding: 1% 2%;
+  background: rgba(128, 255, 0, 0);
+  border: 2px solid #00FF19;
+}
+
+.buy:hover{
+  background: #00FF19;
+  color: #000;
+}
+
+.to_cart{
+  font-family: "IBM Plex Mono", monospace;
+  font-style: normal;
+  line-height: 2vw;
+  font-size: 2.5vw;
+  color: #00FF19;
+
+  width: 28vw;
+  height: 7vw;
+  
+  margin-top: 2%;
+  padding: 1% 2%;
+  background: rgba(128, 255, 0, 0);
+  border: 2px solid #00FF19;
+}
+
+.to_cart:hover{
+  background: #00FF19;
+  color: #000;
+}
+
+
+#buy_modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+
+  top: 18%;  
+  left: 23%;
+  width: 70%;
+  height: 80%;
+  overflow: auto;
+
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  font-family: "IBM Plex Mono", monospace;
+  font-style: normal;
+  line-height: 2vw;
+  font-size: 1,5vw;
+  color: #00FF19;
+}
+
+#buy_modal-content {
+  background-color: #000000;
+  border: 2px solid #00FF19;
+  width: 90%;
+  height: 65vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.close {
+  color: #00ff1aa7;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  margin-left: 90%;
+  margin-bottom: -6%;
+  z-index: 1000;
+}
+
+.close:hover,
+.close:focus {
+  color: #00FF19;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
+#submit_it{
+  font-family: "IBM Plex Mono", monospace;
+  font-style: normal;
+  line-height: 2vw;
+  font-size: 2vw;
+  color: #000000;
+  
+  width: 54vw;
+  height: 6vw;
+  border: none;
+  background: #00FF19;
+
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  margin: 1% 5%;
+}
+
+#sum{
+  font-family: "IBM Plex Mono", monospace;
+  font-style: normal;
+  line-height: 3vw;
+  font-size: 3vw;
+  color: #00FF19;
+
+  position: relative;
+  display: flex;
+  margin-left: 5%;
+}
+
+
+
+#buy_registration{
+  font-family: "IBM Plex Mono", monospace;
+  font-style: normal;
+  line-height: 4vw;
+  font-size: 4vw;
+  color: #00FF19;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2%;
+}
+
+
+
+
+
+#buy_myForm{
+  width: 60vw;
+  align-self: center;
+  align-items: center;
+}
+
+
+#email-address{
+  width: 53vw;
+  height: 6vw;
+  margin-bottom: 2%;
+  margin: 1% 5%;
+
+  font-family: "IBM Plex Mono", monospace;
+  font-style: normal;
+  line-height: 2vw;
+  font-size: 1,5vw;
+}
+
+#mobile_phone{
+  width: 53vw;
+  height: 6vw;
+  margin-bottom: 2%;
+  margin: 1% 5%;
+
+  font-family: "IBM Plex Mono", monospace;
+  font-style: normal;
+  line-height: 2vw;
+  /* font-weight: 2vw; */
+  font-size: 1,5vw;
+}
+
+#name{
+  width: 53vw;
+  height: 6vw;
+  margin-bottom: 2%;
+  margin: 1% 5%;
+
+  font-family: "IBM Plex Mono", monospace;
+  font-style: normal;
+  line-height: 2vw;
+  /* font-weight: 2vw; */
+  font-size: 1,5vw;
+}
+
+#adress{
+  width: 53vw;
+  height: 6vw;
+  margin-bottom: 2%;
+  margin: 1% 5%;
+
+  font-family: "IBM Plex Mono", monospace;
+  font-style: normal;
+  line-height: 2vw;
+  /* font-weight: 2vw; */
+  font-size: 1,5vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+

@@ -1,0 +1,104 @@
+@media screen and (min-width: 1921px) {
+  
+}
+
+@media screen and (min-width: 1441px) and (max-width: 1920px) {
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 1440px) {
+
+}
+
+
+@media screen and (min-width: 415px) and (max-width: 768px) {
+   
+}
+
+@media screen and (max-width: 632px) {
+
+}
+
+@media screen and (max-width: 632px) {
+
+    .menu_bar {
+        display: flex;
+        flex-wrap: wrap;
+        height: 8vw;
+        align-content: space-between;
+        z-index: 1000;
+        margin-top: 2%;
+      }
+      
+    .packman_sdelal_am{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50%;
+      }
+      
+      #error{
+        font-family: "IBM Plex Mono", monospace;
+        font-style: normal;
+        line-height: 2vw;
+        font-size: 15vw;
+        color: #00FF19;
+        text-align: center;
+        margin-top: 5vw;
+      }
+      
+      #text{
+        font-family: "IBM Plex Mono", monospace;
+        font-style: normal;
+        line-height: 2vw;
+        font-size: 1.6vw;
+        color: #00FF19;
+        text-align: center;
+        margin-top: 8%;
+      }
+      
+      #packman{
+        width: 15vw;
+        align-self: center;
+        justify-content: center;
+        display: flex;
+        position: absolute;
+        margin-left: 42%;
+        margin-top: 2%;
+      }.packman_sdelal_am{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 9%;
+      }
+      
+      #error{
+        font-family: "IBM Plex Mono", monospace;
+        font-style: normal;
+        line-height: 2vw;
+        font-size: 28vw;
+        color: #00FF19;
+        text-align: center;
+        margin-top: 6%;
+      }
+      
+      #text{
+        font-family: "IBM Plex Mono", monospace;
+        font-style: normal;
+        line-height: 4vw;
+        font-size: 4vw;
+        color: #00FF19;
+        text-align: center;
+        margin-top: 15%;
+      }
+      
+      #packman{
+        width: 30vw;
+        align-self: center;
+        justify-content: center;
+        display: flex;
+        position: absolute;
+        margin-left: 36%;
+        margin-top: 2%;
+      }
+}
