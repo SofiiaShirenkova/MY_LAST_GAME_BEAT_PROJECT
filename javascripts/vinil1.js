@@ -47,8 +47,8 @@ document.addEventListener("DOMContentLoaded", function() {
     });
     }
 
-    paymentString = "Итого:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp"
-    prices = {0 : "5999", 1 : "999", 2 : "1999", 3 : "599"};
+    paymentString = "Итого:"
+    prices = {0 : "5999"};
 
 
 
